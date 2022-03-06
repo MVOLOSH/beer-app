@@ -16,7 +16,7 @@ def main():
         "food_pair": beer_json[0]["food_pairing"][0]
     }
 
-    return render_template("index.html",beer=beer)
+    return render_template("new-index.html",beer=beer)
 
 
 if __name__ == "__main__":
